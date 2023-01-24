@@ -91,6 +91,7 @@
         {
           "id": 9,
           "title": "The Alchemist",
+          "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
           "author": "Paulo Coelho",
           "price": 12.99,
           "publisher": "HarperOne",
@@ -101,6 +102,7 @@
           {
           "id": 10,
           "title": "The Giving Tree",
+          "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465321504i/30368318.jpg",
           "author": "Shel Silverstein",
           "price": 8.99,
           "publisher": "Harper & Row",
