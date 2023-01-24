@@ -50,6 +50,36 @@
         "publish_date": "1925-04-10",
         "description": "The Great Gatsby is a novel by F. Scott Fitzgerald, set in the jazz age of the United States during the Roaring Twenties. The story takes place in the fictional town of West Egg on Long Island and follows the life of Jay Gatsby, a mysterious and wealthy man who throws extravagant parties.",
         "isbn": "0743273567"
-      }
+      },
+      {
+        "id": 6,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "price": 16.99,
+        "publisher": "Bloomsbury",
+        "publish_date": "1997-06-26",
+        "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series written by British author J. K. Rowling. The story takes place in a magical world and follows the life of young orphan Harry Potter as he learns about his magical heritage and enrolls in Hogwarts School of Witchcraft and Wizardry.",
+        "isbn": "0439708184"
+        },
+        {
+        "id": 7,
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "price": 8.99,
+        "publisher": "Doubleday",
+        "publish_date": "1947-06-25",
+        "description": "The Diary of a Young Girl is a book of the writings from the Dutch language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.",
+        "isbn": "9780385473788"
+        },
+        {
+        "id": 8,
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 14.99,
+        "publisher": "Secker & Warburg",
+        "publish_date": "1949-06-08",
+        "description": "1984 is a dystopian novel by George Orwell published in 1949. The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
+        "isbn": "9780451524935"
+        }
     ]
   }
