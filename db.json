@@ -14,6 +14,7 @@
       {
         "id": 2,
         "title": "To Kill a Mockingbird",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661028348i/10257528.jpg",
         "author": "Harper Lee",
         "price": 14.99,
         "publisher": "J. B. Lippincott & Co.",
@@ -24,6 +25,7 @@
       {
         "id": 3,
         "title": "The Lord of the Rings",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459130i/7349.jpg",
         "author": "J.R.R. Tolkien",
         "price": 19.99,
         "publisher": "George Allen & Unwin",
@@ -34,6 +36,7 @@
       {
         "id": 4,
         "title": "The Hitchhiker's Guide to the Galaxy",
+        "url": "https://books.google.co.ke/books/content?id=3gRUPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72cJD9opKwfDHKDU91i-DtGrqlzcU6hbrTkx1ueAoWRWszy-cLEvA35xMEkHD1EVbjlPREM1QyUUQwFYi0Q_PrHha6EUMvL2sKyiW9-3XYSUd4aDJ1vHtW-7vpGNqRY2LN2R_fY",
         "author": "Douglas Adams",
         "price": 12.99,
         "publisher": "Pan Books",
@@ -44,6 +47,7 @@
       {
         "id": 5,
         "title": "The Great Gatsby",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473960863i/32055355.jpg",
         "author": "F. Scott Fitzgerald",
         "price": 12.99,
         "publisher": "Charles Scribner's Sons",
@@ -54,6 +58,7 @@
       {
         "id": 6,
         "title": "Harry Potter and the Sorcerer's Stone",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1170803558l/72193.jpg",
         "author": "J.K. Rowling",
         "price": 16.99,
         "publisher": "Bloomsbury",
@@ -64,6 +69,7 @@
         {
         "id": 7,
         "title": "The Diary of a Young Girl",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654980601i/61268727.jpg",
         "author": "Anne Frank",
         "price": 8.99,
         "publisher": "Doubleday",
@@ -74,12 +80,33 @@
         {
         "id": 8,
         "title": "1984",
+        "url": "https://books.google.co.ke/books/content?id=uCZUswEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73xEbC3fSmdWmjg9EKHiu7HEgjY2bp5GAdfmnowX8eHYKe8O5g9-lez3obwCsa7Vv6fJfBA6LpYDl5LHVMO7p7DUcA-qtayhI7nq0EnkmLAHFirkSwF3lDTkYREnphd141T3ybv",
         "author": "George Orwell",
         "price": 14.99,
         "publisher": "Secker & Warburg",
         "publish_date": "1949-06-08",
         "description": "1984 is a dystopian novel by George Orwell published in 1949. The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
         "isbn": "9780451524935"
-        }
+        },
+        {
+          "id": 9,
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "price": 12.99,
+          "publisher": "HarperOne",
+          "publish_date": "1988-01-01",
+          "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that tells the story of an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
+          "isbn": "0062315005"
+          },
+          {
+          "id": 10,
+          "title": "The Giving Tree",
+          "author": "Shel Silverstein",
+          "price": 8.99,
+          "publisher": "Harper & Row",
+          "publish_date": "1964-01-01",
+          "description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. The book tells the story of a young boy who has a special relationship with a tree that gives him everything he wants, until there is nothing left but a stump.",
+          "isbn": "0060256656"
+          }
     ]
   }
