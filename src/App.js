@@ -7,6 +7,7 @@ import BookDetails from './components/BookDetails/BookDetails';
 import Contact from './components/Contact/Contact';
 import AddBook from './components/AddBook/AddBook';
 import Login from './components/Login/Login';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path='/add-book' element={<AddBook />} /> 
       <Route path='/about' element={<About />} />
       <Route path='/contact-us' element={<Contact />} />
+      <Route path='/cart' element={<Cart />} />
       <Route path='/book/:id' element={<BookDetails />} />
     </Routes>
   );
