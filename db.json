@@ -65,8 +65,8 @@
         "publish_date": "1997-06-26",
         "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series written by British author J. K. Rowling. The story takes place in a magical world and follows the life of young orphan Harry Potter as he learns about his magical heritage and enrolls in Hogwarts School of Witchcraft and Wizardry.",
         "isbn": "0439708184"
-        },
-        {
+      },
+      {
         "id": 7,
         "title": "The Diary of a Young Girl",
         "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654980601i/61268727.jpg",
@@ -75,9 +75,9 @@
         "publisher": "Doubleday",
         "publish_date": "1947-06-25",
         "description": "The Diary of a Young Girl is a book of the writings from the Dutch language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.",
-        "isbn": "9780385473788"
-        },
-        {
+          "isbn": "9780385473788"
+      },
+      {
         "id": 8,
         "title": "1984",
         "url": "https://books.google.co.ke/books/content?id=uCZUswEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73xEbC3fSmdWmjg9EKHiu7HEgjY2bp5GAdfmnowX8eHYKe8O5g9-lez3obwCsa7Vv6fJfBA6LpYDl5LHVMO7p7DUcA-qtayhI7nq0EnkmLAHFirkSwF3lDTkYREnphd141T3ybv",
@@ -87,28 +87,39 @@
         "publish_date": "1949-06-08",
         "description": "1984 is a dystopian novel by George Orwell published in 1949. The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
         "isbn": "9780451524935"
-        },
-        {
-          "id": 9,
-          "title": "The Alchemist",
-          "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
-          "author": "Paulo Coelho",
-          "price": 12.99,
-          "publisher": "HarperOne",
-          "publish_date": "1988-01-01",
-          "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that tells the story of an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
-          "isbn": "0062315005"
-          },
-          {
-          "id": 10,
-          "title": "The Giving Tree",
-          "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465321504i/30368318.jpg",
-          "author": "Shel Silverstein",
-          "price": 8.99,
-          "publisher": "Harper & Row",
-          "publish_date": "1964-01-01",
-          "description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. The book tells the story of a young boy who has a special relationship with a tree that gives him everything he wants, until there is nothing left but a stump.",
-          "isbn": "0060256656"
-          }
+      },
+      {
+        "id": 9,
+        "title": "The Alchemist",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+        "author": "Paulo Coelho",
+        "price": 12.99,
+        "publisher": "HarperOne",
+        "publish_date": "1988-01-01",
+        "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that tells the story of an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
+        "isbn": "0062315005"
+      },
+      {
+        "id": 10,
+        "title": "The Giving Tree",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465321504i/30368318.jpg",
+        "author": "Shel Silverstein",
+        "price": 8.99,
+        "publisher": "Harper & Row",
+        "publish_date": "1964-01-01",
+        "description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. The book tells the story of a young boy who has a special relationship with a tree that gives him everything he wants, until there is nothing left but a stump.",
+        "isbn": "0060256656"
+      },
+      {
+        "id": 11,
+        "title": "The Giving Tree",
+        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1364586162i/838059.jpg",
+        "authors": "Shel Silverstein",
+        "description": "Once there was a tree...and she loved a little boy. So begins a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein.Every day the boy would come to the tree to eat her apples, swing from her branches, or slide down her trunk...and the tree was happy. But as the boy grew older he began to want more from the tree, and the tree gave and gave and gave.This is a tender story, touched with sadness, aglow with consolation. Shel Silverstein has created a moving parable for readers of all ages that offers an affecting interpretation of the gift of giving and a serene acceptance of another's capacity to love in return.",
+        "price": 15.99,
+        "publisher": "Harper & Row",
+        "publish_date": "1964-09-01",
+        "isbn": "0060256656"
+      }
     ]
   }
