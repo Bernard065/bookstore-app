@@ -9,10 +9,13 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/' element={<Home />}>
+        <Route path='/book' element={<BooksList />} />
+      </Route>
+      {/* <Route path='/' element={<Home />}> */}
       <Route path='/about' element={<About />} />
       <Route path='/contact-us' element={<Contact />} />
-      <Route path='/book' element={<BooksList />} />
+      
       <Route path='/book/:id' element={<BookDetails />} />
     </Routes>
   );
