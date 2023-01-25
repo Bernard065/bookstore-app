@@ -8,6 +8,7 @@ import './Home.css'
 
 const Home = () => {
     const [books, setBooks] = useState([]);
+    //const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(() => {
         axios.get('http://localhost:3000/books')
