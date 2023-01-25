@@ -11,7 +11,7 @@ const Home = () => {
         axios.get('http://localhost:3000/books')
         .then(res => setBooks(res.data));
     }, []);
-    console.log(books)
+    //console.log(books)
   return (
     <main>
         <Header />
