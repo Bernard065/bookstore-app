@@ -1,115 +1,146 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "The Catcher in the Rye",
-        "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480444914l/7933650._SY475_.jpg",
-        "author": "J.D. Salinger",
-        "price": 9.99,
-        "publisher": "Little, Brown and Company",
-        "publish_date": "1951-07-16",
-        "description": "The Catcher in the Rye is a novel by J. D. Salinger. A classic novel originally published for adults, it has since become popular with adolescent readers for its themes of teenage confusion, alienation, and loss of innocence.",
-        "isbn": "0316769487"
-      },
-      {
-        "id": 2,
-        "title": "To Kill a Mockingbird",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661028348i/10257528.jpg",
-        "author": "Harper Lee",
-        "price": 14.99,
-        "publisher": "J. B. Lippincott & Co.",
-        "publish_date": "1960-07-11",
-        "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature.",
-        "isbn": "0446310786"
-      },
-      {
-        "id": 3,
-        "title": "The Lord of the Rings",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459130i/7349.jpg",
-        "author": "J.R.R. Tolkien",
-        "price": 19.99,
-        "publisher": "George Allen & Unwin",
-        "publish_date": "1954-10-21",
-        "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
-        "isbn": "0345339681"
-      },
-      {
-        "id": 4,
-        "title": "The Hitchhiker's Guide to the Galaxy",
-        "url": "https://books.google.co.ke/books/content?id=3gRUPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72cJD9opKwfDHKDU91i-DtGrqlzcU6hbrTkx1ueAoWRWszy-cLEvA35xMEkHD1EVbjlPREM1QyUUQwFYi0Q_PrHha6EUMvL2sKyiW9-3XYSUd4aDJ1vHtW-7vpGNqRY2LN2R_fY",
-        "author": "Douglas Adams",
-        "price": 12.99,
-        "publisher": "Pan Books",
-        "publish_date": "1979-10-12",
-        "description": "The Hitchhiker's Guide to the Galaxy is a comedy science fiction series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, and over several years it gradually became an international multi-media phenomenon.",
-        "isbn": "0345391802"
-      },
-      {
-        "id": 5,
-        "title": "The Great Gatsby",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473960863i/32055355.jpg",
-        "author": "F. Scott Fitzgerald",
-        "price": 12.99,
-        "publisher": "Charles Scribner's Sons",
-        "publish_date": "1925-04-10",
-        "description": "The Great Gatsby is a novel by F. Scott Fitzgerald, set in the jazz age of the United States during the Roaring Twenties. The story takes place in the fictional town of West Egg on Long Island and follows the life of Jay Gatsby, a mysterious and wealthy man who throws extravagant parties.",
-        "isbn": "0743273567"
-      },
-      {
-        "id": 6,
-        "title": "Harry Potter and the Sorcerer's Stone",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1170803558l/72193.jpg",
-        "author": "J.K. Rowling",
-        "price": 16.99,
-        "publisher": "Bloomsbury",
-        "publish_date": "1997-06-26",
-        "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series written by British author J. K. Rowling. The story takes place in a magical world and follows the life of young orphan Harry Potter as he learns about his magical heritage and enrolls in Hogwarts School of Witchcraft and Wizardry.",
-        "isbn": "0439708184"
-      },
-      {
-        "id": 7,
-        "title": "The Diary of a Young Girl",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654980601i/61268727.jpg",
-        "author": "Anne Frank",
-        "price": 8.99,
-        "publisher": "Doubleday",
-        "publish_date": "1947-06-25",
-        "description": "The Diary of a Young Girl is a book of the writings from the Dutch language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.",
-          "isbn": "9780385473788"
-      },
-      {
-        "id": 8,
-        "title": "1984",
-        "url": "https://books.google.co.ke/books/content?id=uCZUswEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73xEbC3fSmdWmjg9EKHiu7HEgjY2bp5GAdfmnowX8eHYKe8O5g9-lez3obwCsa7Vv6fJfBA6LpYDl5LHVMO7p7DUcA-qtayhI7nq0EnkmLAHFirkSwF3lDTkYREnphd141T3ybv",
-        "author": "George Orwell",
-        "price": 14.99,
-        "publisher": "Secker & Warburg",
-        "publish_date": "1949-06-08",
-        "description": "1984 is a dystopian novel by George Orwell published in 1949. The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
-        "isbn": "9780451524935"
-      },
-      {
-        "id": 9,
-        "title": "The Alchemist",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
-        "author": "Paulo Coelho",
-        "price": 12.99,
-        "publisher": "HarperOne",
-        "publish_date": "1988-01-01",
-        "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that tells the story of an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
-        "isbn": "0062315005"
-      },
-      {
-        "id": 10,
-        "title": "The Giving Tree",
-        "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465321504i/30368318.jpg",
-        "author": "Shel Silverstein",
-        "price": 8.99,
-        "publisher": "Harper & Row",
-        "publish_date": "1964-01-01",
-        "description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. The book tells the story of a young boy who has a special relationship with a tree that gives him everything he wants, until there is nothing left but a stump.",
-        "isbn": "0060256656"
-      }
-     
-    ]
-  }
+  "books": [
+    {
+      "id": 1,
+      "title": "The Catcher in the Rye",
+      "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480444914l/7933650._SY475_.jpg",
+      "author": "J.D. Salinger",
+      "price": 9.99,
+      "publisher": "Little, Brown and Company",
+      "publish_date": "1951-07-16",
+      "description": "The Catcher in the Rye is a novel by J. D. Salinger. A classic novel originally published for adults, it has since become popular with adolescent readers for its themes of teenage confusion, alienation, and loss of innocence.",
+      "isbn": "0316769487"
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661028348i/10257528.jpg",
+      "author": "Harper Lee",
+      "price": 14.99,
+      "publisher": "J. B. Lippincott & Co.",
+      "publish_date": "1960-07-11",
+      "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature.",
+      "isbn": "0446310786"
+    },
+    {
+      "id": 3,
+      "title": "The Lord of the Rings",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459130i/7349.jpg",
+      "author": "J.R.R. Tolkien",
+      "price": 19.99,
+      "publisher": "George Allen & Unwin",
+      "publish_date": "1954-10-21",
+      "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
+      "isbn": "0345339681"
+    },
+    {
+      "id": 4,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "url": "https://books.google.co.ke/books/content?id=3gRUPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72cJD9opKwfDHKDU91i-DtGrqlzcU6hbrTkx1ueAoWRWszy-cLEvA35xMEkHD1EVbjlPREM1QyUUQwFYi0Q_PrHha6EUMvL2sKyiW9-3XYSUd4aDJ1vHtW-7vpGNqRY2LN2R_fY",
+      "author": "Douglas Adams",
+      "price": 12.99,
+      "publisher": "Pan Books",
+      "publish_date": "1979-10-12",
+      "description": "The Hitchhiker's Guide to the Galaxy is a comedy science fiction series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, and over several years it gradually became an international multi-media phenomenon.",
+      "isbn": "0345391802"
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473960863i/32055355.jpg",
+      "author": "F. Scott Fitzgerald",
+      "price": 12.99,
+      "publisher": "Charles Scribner's Sons",
+      "publish_date": "1925-04-10",
+      "description": "The Great Gatsby is a novel by F. Scott Fitzgerald, set in the jazz age of the United States during the Roaring Twenties. The story takes place in the fictional town of West Egg on Long Island and follows the life of Jay Gatsby, a mysterious and wealthy man who throws extravagant parties.",
+      "isbn": "0743273567"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1170803558l/72193.jpg",
+      "author": "J.K. Rowling",
+      "price": 16.99,
+      "publisher": "Bloomsbury",
+      "publish_date": "1997-06-26",
+      "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series written by British author J. K. Rowling. The story takes place in a magical world and follows the life of young orphan Harry Potter as he learns about his magical heritage and enrolls in Hogwarts School of Witchcraft and Wizardry.",
+      "isbn": "0439708184"
+    },
+    {
+      "id": 7,
+      "title": "The Diary of a Young Girl",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654980601i/61268727.jpg",
+      "author": "Anne Frank",
+      "price": 8.99,
+      "publisher": "Doubleday",
+      "publish_date": "1947-06-25",
+      "description": "The Diary of a Young Girl is a book of the writings from the Dutch language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.",
+      "isbn": "9780385473788"
+    },
+    {
+      "id": 8,
+      "title": "1984",
+      "url": "https://books.google.co.ke/books/content?id=uCZUswEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73xEbC3fSmdWmjg9EKHiu7HEgjY2bp5GAdfmnowX8eHYKe8O5g9-lez3obwCsa7Vv6fJfBA6LpYDl5LHVMO7p7DUcA-qtayhI7nq0EnkmLAHFirkSwF3lDTkYREnphd141T3ybv",
+      "author": "George Orwell",
+      "price": 14.99,
+      "publisher": "Secker & Warburg",
+      "publish_date": "1949-06-08",
+      "description": "1984 is a dystopian novel by George Orwell published in 1949. The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
+      "isbn": "9780451524935"
+    },
+    {
+      "id": 9,
+      "title": "The Alchemist",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+      "author": "Paulo Coelho",
+      "price": 12.99,
+      "publisher": "HarperOne",
+      "publish_date": "1988-01-01",
+      "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that tells the story of an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
+      "isbn": "0062315005"
+    },
+    {
+      "id": 10,
+      "title": "The Giving Tree",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465321504i/30368318.jpg",
+      "author": "Shel Silverstein",
+      "price": 8.99,
+      "publisher": "Harper & Row",
+      "publish_date": "1964-01-01",
+      "description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. The book tells the story of a young boy who has a special relationship with a tree that gives him everything he wants, until there is nothing left but a stump.",
+      "isbn": "0060256656"
+    },
+    {
+      "title": "cvhbdhcbhsdbh",
+      "author": "fvfvfvdfvbdvhdb",
+      "publisher": "sdhdvbhdvdfvb",
+      "publish_date": "fushujfbjnj",
+      "isbn": "ufvjdfbj",
+      "description": "shffffffffffgsss",
+      "price": "78",
+      "id": 11
+    },
+    {
+      "title": "The Hobbit",
+      "author": "  Douglas A. Anderson",
+      "publisher": "Collins Modern Classics (1998)",
+      "publish_date": "1937",
+      "isbn": "33333",
+      "description": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.\nWritten for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. The text in this 372-page paperback edition is based on that first published in Great Britain by Collins Modern Classics (1998), and includes a note on the text by Douglas A. Anderson (2001).",
+      "price": "67",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "id": 12
+    },
+    {
+      "title": "Eragon",
+      "author": "Christopher Paolini",
+      "publisher": "Bernard Bebeni",
+      "publish_date": "2023",
+      "isbn": "9780375826696",
+      "description": "When Eragon finds a polished blue stone in the forest, he thinks it is the lucky discovery of a poor farm boy; perhaps it will buy his family meat for the winter. But when the stone brings a dragon hatchling, Eragon soon realizes he has stumbled upon a legacy nearly as old as the Empire itself.\n",
+      "price": "86",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366212852i/113436.jpg",
+      "id": 13
+    }
+  ]
+}
