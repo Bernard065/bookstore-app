@@ -2,6 +2,7 @@ import React from 'react'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 import './Contact.css'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
     const formik = useFormik({
@@ -21,6 +22,7 @@ const Contact = () => {
     })
   return (
     <form onSubmit={formik.handleSubmit}>
+        <Link to='/'><button>Back to Home</button></Link>
         <label htmFor='name'>Name</label>
         <input id='name' name='name' type='text' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.name} />
         {formik.touched.name && formik.errors.name ? <div>{formik.errors.name}</div> : null}
