@@ -12,7 +12,7 @@ import Search from '../Search/Search'
 
 const Home = () => {
     const [books, setBooks] = useState([]);
-    //const [cart, setCart] = useState([]);
+    const [cart, setCart] = useState([]);
     //const [searchTerm, setSearchTerm] = useState("");
     //const navigate = useNavigate();
 
@@ -22,12 +22,16 @@ const Home = () => {
     }, []);
     //console.log(books)
 
+    const addToCart = (book) => {
+      setCart([...cart, book])
+    }
+
   return (
     <main>
         <Header books={books} />
         <h1 className='title text-center'>Available Books</h1>
         {/* <BooksList books={books} setBooks={setBooks} /> */}
-        <Search books={books} setBooks={setBooks} />
+        <Search books={books} setBooks={setBooks} addToCart={addToCart} />
         {/* <Cart cart={cart} setCart={setCart} /> */}
         <Footer />
     </main>

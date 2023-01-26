@@ -8,6 +8,11 @@ import './BooksList.css'
 const BooksList = ({ books, addToCart }) => {
      const navigate = useNavigate();
 
+     const handleAddToCart = (book) => {
+        addToCart(book)
+        navigate('/cart');
+     }
+
     const displayBookList = books.map(book => {
         return (
             <div className="book" key={book.id}>
@@ -20,10 +25,7 @@ const BooksList = ({ books, addToCart }) => {
                     <p>ISBN: {book.isbn}</p>
                     <p>Description: {book.description}</p>
                     <p>${book.price}</p>
-                    <button onClick={() => {
-                        addToCart(book);
-                        navigate('/cart');
-                    }}>Add to cart</button>
+                    <button onClick={() => handleAddToCart(book)}>Add to cart</button>
                 </div>
             </div>
         )  
