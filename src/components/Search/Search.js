@@ -3,7 +3,7 @@ import React from 'react'
 const Search = () => {
   return (
     <div>
-      <input type="text" placeholder='Search by title or author' />
+      <input type="text" placeholder='Search by title or autho' />
     </div>
   )
 }
