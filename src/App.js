@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import AddBook from './components/AddBook/AddBook';
 import Login from './components/Login/Login';
 import Cart from './components/Cart/Cart';
+import DashBoard from './components/DashBoard/DashBoard';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/contact-us' element={<Contact />} />
       <Route path='/cart' element={<Cart />} />
       <Route path='/book/:id' element={<Cart />} />
+      <Route path='/dashboard' element={<DashBoard />} />
     </Routes>
   );
 }

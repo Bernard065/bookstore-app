@@ -22,7 +22,7 @@ const BooksList = ({ books, addToCart }) => {
                     <p>${book.price}</p>
                     <button onClick={() => {
                         addToCart(book);
-                        navigate('/cart')
+                        navigate('/cart');
                     }}>Add to cart</button>
                 </div>
             </div>
