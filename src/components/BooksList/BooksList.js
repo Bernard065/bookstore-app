@@ -1,9 +1,13 @@
 //import axios from 'axios';
 //import React, { useEffect, useState } from 'react'
 //import BookDetails from '../BookDetails/BookDetails'
+//import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import './BooksList.css'
 
-const BooksList = ({ books }) => {
+const BooksList = ({ books, addToCart }) => {
+     const navigate = useNavigate();
+
     const displayBookList = books.map(book => {
         return (
             <div className="book" key={book.id}>
@@ -16,6 +20,10 @@ const BooksList = ({ books }) => {
                     <p>ISBN: {book.isbn}</p>
                     <p>Description: {book.description}</p>
                     <p>${book.price}</p>
+                    <button onClick={() => {
+                        addToCart(book);
+                        navigate('/cart')
+                    }}>Add to cart</button>
                 </div>
             </div>
         )  
