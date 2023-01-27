@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <main>
         <Header books={books} />
-        <h1 className='title text-center'>Available Books</h1>
+        <h2 className='title text-center'>Available Books</h2>
         <Search books={books} setBooks={setBooks} addToCart={addToCart} />
         <Footer />
     </main>

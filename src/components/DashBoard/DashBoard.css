@@ -1,0 +1,71 @@
+.admin {
+    background: linear-gradient(45deg, #ffc400, #f80091);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f80091; /*dark pink */
+    text-align: center;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffc400; /* pale yellow */
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.book img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-info {
+    width: calc(100% - 170px);
+}
+
+.book-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book-info h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.book-info p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 2rem;
+}

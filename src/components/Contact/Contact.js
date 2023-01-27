@@ -17,7 +17,7 @@ const Contact = () => {
             message: Yup.string().required("Please enter a message")
         }),
         onSubmit: values => {
-            //handle form submission here
+            alert("Thank you for contacting us, we will get back at you soon")
         }
     })
   return (
