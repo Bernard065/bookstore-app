@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AddBook from '../AddBook/AddBook'
 import axios from 'axios';
+import './DashBoard.css'
 
 const DashBoard = () => {
     const [books, setBooks] = useState([]);
@@ -46,10 +47,10 @@ const DashBoard = () => {
             <h1>Admin DashBoard</h1>
         </div>
         <div><AddBook /></div>
-        <div>
-            <h2>Books Available in Store</h2>
+        <div className='admin'>
+            <h2 className='heading'>Books Available in Store</h2>
         </div>
-        <div>
+        <div className='books-grid'>
             {loginBooksDisplay}
         </div>
     </div>
