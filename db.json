@@ -1,17 +1,6 @@
 {
   "books": [
     {
-      "id": 2,
-      "title": "To Kill a Mockingbird",
-      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661028348i/10257528.jpg",
-      "author": "Harper Lee",
-      "price": 14.99,
-      "publisher": "J. B. Lippincott & Co.",
-      "publish_date": "1960-07-11",
-      "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature.",
-      "isbn": "0446310786"
-    },
-    {
       "id": 3,
       "title": "The Lord of the Rings",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459130i/7349.jpg",
@@ -163,6 +152,50 @@
       "price": "78",
       "url": "hhhhd",
       "id": 16
+    },
+    {
+      "title": "Bebeni Articles",
+      "author": "bebeni",
+      "publisher": "bebebi",
+      "publish_date": "2022",
+      "isbn": "34455",
+      "description": "Bernard is an awesome man",
+      "price": "98",
+      "image": {},
+      "id": 17
+    },
+    {
+      "title": "Mastery",
+      "author": "Green",
+      "publisher": "65566",
+      "publish_date": "ggggdggd",
+      "isbn": "44444",
+      "description": "hhdgdggdjdffjfjjf",
+      "price": "56",
+      "url": {},
+      "id": 18
+    },
+    {
+      "title": "Brain Energy",
+      "author": "Christopher M. Palmer",
+      "publisher": "3445",
+      "publish_date": "2030",
+      "isbn": "44444",
+      "description": "A Revolutionary Breakthrough in Understanding Mental Health--and Improving Treatment for Anxiety, Depression, OCD, PTSD, and More",
+      "price": "106",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659718165i/61129785.jpg",
+      "id": 19
+    },
+    {
+      "title": "The Garden",
+      "author": "The Garden",
+      "publisher": "Bernard Bebeni",
+      "publish_date": "2022",
+      "isbn": "44444",
+      "description": "In this dreamlike short story told in alternating prose and verse, number one New York Times bestselling author Tomi Champion-Adeyemi weaves a tale of a young woman’s journey to find her mother and uncover her secrets.",
+      "price": "100",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1665769095i/62991528.jpg",
+      "id": 20
     }
   ]
 }

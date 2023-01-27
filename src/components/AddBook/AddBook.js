@@ -23,6 +23,7 @@ const AddBook = () => {
         axios.post('http://localhost:3000/books', formData)
             .then(res => {
                 console.log(res.data);
+                alert('Book added successfully')
                 setFormData({
                     title: '',
                     author: '',
