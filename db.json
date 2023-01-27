@@ -165,17 +165,6 @@
       "id": 17
     },
     {
-      "title": "Mastery",
-      "author": "Green",
-      "publisher": "65566",
-      "publish_date": "ggggdggd",
-      "isbn": "44444",
-      "description": "hhdgdggdjdffjfjjf",
-      "price": "56",
-      "url": {},
-      "id": 18
-    },
-    {
       "title": "Brain Energy",
       "author": "Christopher M. Palmer",
       "publisher": "3445",
@@ -196,6 +185,17 @@
       "price": "100",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1665769095i/62991528.jpg",
       "id": 20
+    },
+    {
+      "title": "Ode to a Nobody",
+      "author": "Caroline Brooks DuBois",
+      "publisher": "Holiday House",
+      "publish_date": "December 6, 2022 ",
+      "isbn": "9780823451562",
+      "description": "Before the storm, thirteen-year-old Quinn was happy flying under the radar. She was average. Unremarkable. Always looking for an escape from her house, where her bickering parents fawned over her genius big brother.\n",
+      "price": "74",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663125760i/60418623.jpg",
+      "id": 21
     }
   ]
 }
