@@ -5,10 +5,14 @@ import About from './components/About/About';
 import BooksList from './components/BooksList/BooksList';
 import BookDetails from './components/BookDetails/BookDetails';
 import Contact from './components/Contact/Contact';
+import Cart from './components/cart/Cart';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <><Routes>
+    <>
+    <Navbar />
+    <Routes>
       <Route path='/' element={<Home />}>
         <Route path='/book' element={<BooksList />} />
       </Route>
@@ -17,7 +21,9 @@ function App() {
       <Route path='/contact-us' element={<Contact />} />
 
       <Route path='/book/:id' element={<BookDetails />} />
-    </Routes></>
+      <Route path='/Cart' element={<Cart />} />
+    </Routes>
+   </>
   );
 }
 

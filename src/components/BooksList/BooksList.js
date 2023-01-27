@@ -4,6 +4,10 @@
 import './BooksList.css'
 
 const BooksList = ({ books }) => {
+    function handleCart(e){
+        e.preventDefault();
+        books.forEach(data => console.log(data.title))
+    }
     const displayBookList = books.map(book => {
         return (
             <div className="book" key={book.id}>
@@ -16,6 +20,9 @@ const BooksList = ({ books }) => {
                     <p>ISBN: {book.isbn}</p>
                     <p>Description: {book.description}</p>
                     <p>${book.price}</p>
+                    <form onSubmit={handleCart}>
+                        <button>Add to cart</button>
+                    </form>
                 </div>
             </div>
         )  
