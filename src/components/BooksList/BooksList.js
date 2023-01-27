@@ -16,7 +16,6 @@ const BooksList = ({ books, addToCart }) => {
                     <p>ISBN: {book.isbn}</p>
                     <p>Description: {book.description}</p>
                     <p>${book.price}</p>
-                    <button onClick={() => addToCart(book)}>Add to Cart</button>
                 </div>
             </div>
         )  

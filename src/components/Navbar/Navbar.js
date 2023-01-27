@@ -12,7 +12,7 @@ const Navbar = () => {
             <li><Link to="/login">Admin Login</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact-us">Contact US</Link></li>
-            <li><Link to='/cart'>My Cart</Link></li>
+            {/* <li><Link to='/cart'>My Cart</Link></li> */}
         </ul>
     </nav>
   )
