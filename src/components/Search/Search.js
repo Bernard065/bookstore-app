@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import BooksList from '../BooksList/BooksList';
 import './Search.css'
 
-const Search = ({ books }) => {
+const Search = ({ books, addToCart }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event) => {
@@ -15,7 +15,7 @@ const Search = ({ books }) => {
   return (
     <div className='search-form'>
       <input className='search-input' type='text' placeholder='Search by title or author' value={searchTerm} onChange={handleSearch} />
-      <BooksList books={filteredBooks} />
+      <BooksList books={filteredBooks} addToCart={addToCart} />
     </div>
   )
 }

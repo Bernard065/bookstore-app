@@ -20,7 +20,7 @@ const Login = () => {
         onSubmit: values => {
             setIsSubmitting(true);
             console.log(values);
-            navigate('/add-book')
+            navigate('/dashboard')
         },
     })
   return (

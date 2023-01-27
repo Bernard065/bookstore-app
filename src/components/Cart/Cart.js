@@ -1,8 +1,12 @@
 import './Cart.css'
 import { useNavigate } from 'react-router-dom';
+//import { useState } from 'react';
 
-const Cart = ({ cart, setCart }) => {
-const navigate = useNavigate();
+const Cart = () => {
+    //const [cart, setCart] = useState([]);
+    const navigate = useNavigate();
+
+
 
 return (
     <div className='cart-page'>
