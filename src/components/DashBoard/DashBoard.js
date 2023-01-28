@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AddBook from '../AddBook/AddBook'
 import axios from 'axios';
 import './DashBoard.css'
+import Navbar from '../Navbar/Navbar';
 
 const DashBoard = () => {
     const [books, setBooks] = useState([]);
@@ -43,6 +44,9 @@ const DashBoard = () => {
    })
   return (
     <div>
+        <div>
+            <Navbar />
+        </div>
         <div>
             <h1>Admin DashBoard</h1>
         </div>

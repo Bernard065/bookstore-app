@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './AddBook.css'
 
 const AddBook = () => {
@@ -39,7 +39,6 @@ const AddBook = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <Link to='/'><button>Back to Home</button></Link>
             <input type="text" name="title" placeholder="Title" value={formData.title} onChange={handleChange} required />
             <input type="text" name="url" placeholder="url" value={formData.url} onChange={handleChange} required />
             <input type="text" name="author" placeholder="Author" value={formData.author} onChange={handleChange} required />
