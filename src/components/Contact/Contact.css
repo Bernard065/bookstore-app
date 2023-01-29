@@ -55,3 +55,14 @@ button {
 button:hover {
     background-color: #d9176d;
 }
+
+@media only screen and (max-width: 600px) {
+    label {
+        font-size: 14px;
+    }
+    input, textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}

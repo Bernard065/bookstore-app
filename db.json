@@ -153,6 +153,17 @@
       "price": "14.99",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659718165i/61129785.jpg",
       "id": 23
+    },
+    {
+      "title": "A Private Spy",
+      "author": "John le Carré",
+      "publisher": " Random House Large Print Publishing",
+      "publish_date": "2022",
+      "isbn": "9780593632741",
+      "description": "The never-before-seen correspondance of John le Carré, one of the most important novelists of our generation, are collected in this beautiful volume. During his lifetime, le Carré wrote numerous letters to writers, spies, politicians, artists, actors and public figures. This collection is a treasure trove, revealing the late author's humour, generosity, and wit--a side of him many readers have not previously seen.\n",
+      "price": "56",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1666574331i/60279836.jpg",
+      "id": 24
     }
   ]
 }

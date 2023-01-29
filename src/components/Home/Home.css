@@ -5,3 +5,12 @@
 main {
     background: linear-gradient(45deg, #ffc400, #f80091);
 }
+
+@media (max-width: 600px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  }
+  
+
+
