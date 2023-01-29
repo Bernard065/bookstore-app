@@ -1,17 +1,6 @@
 {
   "books": [
     {
-      "id": 3,
-      "title": "The Lord of the Rings",
-      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459130i/7349.jpg",
-      "author": "J.R.R. Tolkien",
-      "price": 19.99,
-      "publisher": "George Allen & Unwin",
-      "publish_date": "1954-10-21",
-      "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.",
-      "isbn": "0345339681"
-    },
-    {
       "id": 4,
       "title": "The Hitchhiker's Guide to the Galaxy",
       "url": "https://books.google.co.ke/books/content?id=3gRUPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72cJD9opKwfDHKDU91i-DtGrqlzcU6hbrTkx1ueAoWRWszy-cLEvA35xMEkHD1EVbjlPREM1QyUUQwFYi0Q_PrHha6EUMvL2sKyiW9-3XYSUd4aDJ1vHtW-7vpGNqRY2LN2R_fY",
@@ -89,16 +78,6 @@
       "isbn": "0060256656"
     },
     {
-      "title": "cvhbdhcbhsdbh",
-      "author": "fvfvfvdfvbdvhdb",
-      "publisher": "sdhdvbhdvdfvb",
-      "publish_date": "fushujfbjnj",
-      "isbn": "ufvjdfbj",
-      "description": "shffffffffffgsss",
-      "price": "78",
-      "id": 11
-    },
-    {
       "title": "The Hobbit",
       "author": "  Douglas A. Anderson",
       "publisher": "Collins Modern Classics (1998)",
@@ -119,50 +98,6 @@
       "price": "86",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366212852i/113436.jpg",
       "id": 13
-    },
-    {
-      "title": "shshhsshshhdhdhdhdh",
-      "author": "fffffffffffffffffff",
-      "publisher": "dddddddddddd",
-      "publish_date": "fgggggggg",
-      "isbn": "gggggggggg",
-      "description": "eeeeeeeeeeeeeeeeeeeeee",
-      "price": "56",
-      "url": "ddddd",
-      "id": 14
-    },
-    {
-      "title": "sssssssssssssssssssssss",
-      "author": "cccccccccccc",
-      "publisher": "dddddddddddd",
-      "publish_date": "ffffffffffff",
-      "isbn": "hhhhhhhhhhhhhhh",
-      "description": "tttttttttttttttt",
-      "price": "uuuuuuuuuuuuuuuuuuuuuu",
-      "url": "dddddddddddddd",
-      "id": 15
-    },
-    {
-      "title": "benard",
-      "author": "jkdkd",
-      "publisher": "yyyyy",
-      "publish_date": "hhd",
-      "isbn": "ffff",
-      "description": "hhhhhhhhhhhhhhh",
-      "price": "78",
-      "url": "hhhhd",
-      "id": 16
-    },
-    {
-      "title": "Bebeni Articles",
-      "author": "bebeni",
-      "publisher": "bebebi",
-      "publish_date": "2022",
-      "isbn": "34455",
-      "description": "Bernard is an awesome man",
-      "price": "98",
-      "image": {},
-      "id": 17
     },
     {
       "title": "Brain Energy",
@@ -196,6 +131,28 @@
       "price": "74",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663125760i/60418623.jpg",
       "id": 21
+    },
+    {
+      "title": "Borne a crime",
+      "author": "hhhhs",
+      "publisher": "sssss",
+      "publish_date": "2020",
+      "isbn": "gggs",
+      "description": "awesome book",
+      "price": "44",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649656971i/60674351.jpg",
+      "id": 22
+    },
+    {
+      "title": "Brain Energy",
+      "author": "Christopher M. Palmer",
+      "publisher": "BenBella Books",
+      "publish_date": "2022",
+      "isbn": "66666666",
+      "description": "A Revolutionary Breakthrough in Understanding Mental Health--and Improving Treatment for Anxiety, Depression, OCD, PTSD, and More",
+      "price": "14.99",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659718165i/61129785.jpg",
+      "id": 23
     }
   ]
 }

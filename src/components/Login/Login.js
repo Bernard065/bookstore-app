@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { useFormik } from 'formik';
 import * as Yup from 'yup'
 import './Login.css'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 
 const Login = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -25,6 +26,9 @@ const Login = () => {
     })
   return (
     <div className='login-page'>
+        <div>
+            <Navbar />
+        </div>
         <form onSubmit={formik.handleSubmit}>
             <h1>Login</h1>
             <div className='form-group'>
@@ -53,7 +57,6 @@ const Login = () => {
                 {isSubmitting ? 'Logged in...' : 'Login'}
             </button>
         </form>
-        <Link to='/'><button>Back to Home</button></Link>
     </div>
   )
 }

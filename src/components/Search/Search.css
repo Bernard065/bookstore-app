@@ -1,0 +1,24 @@
+.search-form {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.2s ease;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.search-input:focus {
+    border: 2px solid #555;
+}

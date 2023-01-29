@@ -1,7 +1,35 @@
-/* form {
-    background: linear-gradient(45deg, #ffc400, #f80091);
-} */
+.add-book-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-button {
-    margin-bottom: 20px;
+.add-book-form input,
+.add-book-form select,
+.add-book-form textarea {
+    margin: 10px 0;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.add-book-form button {
+    width: 100%;
+    background-color: #b351aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-book-form button:hover {
+    background-color: #e907d6;
 }
