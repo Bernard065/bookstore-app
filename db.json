@@ -78,16 +78,6 @@
       "isbn": "0060256656"
     },
     {
-      "title": "cvhbdhcbhsdbh",
-      "author": "fvfvfvdfvbdvhdb",
-      "publisher": "sdhdvbhdvdfvb",
-      "publish_date": "fushujfbjnj",
-      "isbn": "ufvjdfbj",
-      "description": "shffffffffffgsss",
-      "price": "78",
-      "id": 11
-    },
-    {
       "title": "The Hobbit",
       "author": "  Douglas A. Anderson",
       "publisher": "Collins Modern Classics (1998)",
@@ -108,39 +98,6 @@
       "price": "86",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366212852i/113436.jpg",
       "id": 13
-    },
-    {
-      "title": "shshhsshshhdhdhdhdh",
-      "author": "fffffffffffffffffff",
-      "publisher": "dddddddddddd",
-      "publish_date": "fgggggggg",
-      "isbn": "gggggggggg",
-      "description": "eeeeeeeeeeeeeeeeeeeeee",
-      "price": "56",
-      "url": "ddddd",
-      "id": 14
-    },
-    {
-      "title": "benard",
-      "author": "jkdkd",
-      "publisher": "yyyyy",
-      "publish_date": "hhd",
-      "isbn": "ffff",
-      "description": "hhhhhhhhhhhhhhh",
-      "price": "78",
-      "url": "hhhhd",
-      "id": 16
-    },
-    {
-      "title": "Bebeni Articles",
-      "author": "bebeni",
-      "publisher": "bebebi",
-      "publish_date": "2022",
-      "isbn": "34455",
-      "description": "Bernard is an awesome man",
-      "price": "98",
-      "image": {},
-      "id": 17
     },
     {
       "title": "Brain Energy",
@@ -185,6 +142,17 @@
       "price": "44",
       "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649656971i/60674351.jpg",
       "id": 22
+    },
+    {
+      "title": "Brain Energy",
+      "author": "Christopher M. Palmer",
+      "publisher": "BenBella Books",
+      "publish_date": "2022",
+      "isbn": "66666666",
+      "description": "A Revolutionary Breakthrough in Understanding Mental Health--and Improving Treatment for Anxiety, Depression, OCD, PTSD, and More",
+      "price": "14.99",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659718165i/61129785.jpg",
+      "id": 23
     }
   ]
 }

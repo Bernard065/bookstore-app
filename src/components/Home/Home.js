@@ -11,7 +11,7 @@ import Navbar from '../Navbar/Navbar'
 
 const Home = () => {
   const [books, setBooks] = useState([]);
-  const [cart, setCart] = useState([]);
+
  
    
 
@@ -21,17 +21,12 @@ const Home = () => {
   }, []);
     //console.log(books)
 
-  const addToCart = (book) => {
-    setCart([...cart, book]);
-  }
-
-
   return (
     <main>
         <Navbar />
         <Header books={books} />
         <h2 className='title text-center'>Available Books</h2>
-        <Search books={books} setBooks={setBooks} addToCart={addToCart} />
+        <Search books={books} setBooks={setBooks} />
         <Footer />
     </main>
   )

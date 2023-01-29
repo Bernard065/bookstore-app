@@ -1,6 +1,8 @@
 import './BooksList.css'
 
-const BooksList = ({ books, addToCart }) => {
+
+const BooksList = ({ books }) => {
+    
 
     
 
@@ -9,7 +11,7 @@ const BooksList = ({ books, addToCart }) => {
             <div className="book" key={book.id}>
                 <img src={book.url} alt={book.title} />
                 <div className="book-info">
-                    <h2>{book.title}</h2>
+                    <h3>{book.title}</h3>
                     <h4>Author: {book.author}</h4>
                     <p>Publisher: {book.publisher}</p>
                     <p>Publish Date: {book.publish_date}</p>
