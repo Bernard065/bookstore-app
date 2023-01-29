@@ -12,3 +12,16 @@
     opacity: 0.8;
     max-width: 770px;
 }
+
+@media (max-width: 600px) {
+    .header-content {
+        min-height: 50vh;
+    }
+    .header-title {
+        font-size: 3rem;
+    }
+    .header-text {
+        margin-top: -1rem;
+        max-width: 90%;
+    }
+}

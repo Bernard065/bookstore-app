@@ -24,3 +24,18 @@
     max-width: 600px;
     margin-bottom: 30px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+}

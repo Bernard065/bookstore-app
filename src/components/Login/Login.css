@@ -60,3 +60,22 @@
     cursor: pointer;
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .login-page form {
+        width: 90%;
+    }
+    .login-page h1 {
+        font-size: 1.5rem;
+    }
+    .login-page label {
+        font-size: 1rem;
+    }
+    .login-page input {
+        font-size: 1rem;
+    }
+    .login-page button[type='submit'] {
+        font-size: 1rem;
+    }
+}
+

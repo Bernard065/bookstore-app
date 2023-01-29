@@ -40,3 +40,12 @@ footer {
 .social-links a:hover {
     color: #d9176d;
 }
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}

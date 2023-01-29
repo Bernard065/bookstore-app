@@ -33,3 +33,11 @@
 .add-book-form button:hover {
     background-color: #e907d6;
 }
+
+@media (max-width: 768px) {
+    .add-book-form {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+}
